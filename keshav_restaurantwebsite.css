@@ -1,0 +1,116 @@
+#navlist{
+    list-style: none;
+    padding:2px;
+    font-size: 1.5rem;
+    display:flex;
+    flex-direction:row;
+    justify-content: space-around;
+}
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+
+}
+
+.container{
+    width:100%;
+    height:100%;
+    overflow-x:none;background: hsla(186, 33%, 94%, 1);
+
+    background: linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+    
+    background: -moz-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+    
+    background: -webkit-linear-gradient(90deg, hsla(186, 33%, 94%, 1) 0%, hsla(216, 41%, 79%, 1) 100%);
+    
+    filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#EBF4F5", endColorstr="#B5C6E0", GradientType=1 );
+
+   
+    
+}
+
+.navcontainer{
+    width:100vw;
+    min-height:16px;
+    background: rgb(10, 63, 61);
+    background: hsla(239, 100%, 67%, 1);
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+
+
+    
+}
+
+#navpara{
+    font-size: 1.9rem;
+    font-style: italic;
+    color: rgba(174, 3, 3, 0.498);
+    text-shadow: 2px 3px 10px rgb(38, 221, 249) ;
+}
+
+a{
+    text-decoration: none;
+    color:rgb(29, 29, 154);
+    text-shadow: 3px 2px 3px white;
+}
+
+#navitems{
+    display: flex;
+    gap: 10px;
+}
+
+.footerbox{
+    text-align:center;
+    width: 100vw;
+    min-height: 40px;
+    border:2px solid black;
+    border-radius: 4px;
+    background: rgb(10, 63, 61);
+    background: hsla(239, 100%, 67%, 1);
+    background-color: #00DBDE;
+    background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
+
+}
+
+.footerbox p{
+    color:rgba(219, 227, 239, 0.909);
+    font-size: 1.5rem;
+    
+   
+
+}
+
+.contentbox{
+    width:45%;
+    margin:auto;
+    border:1px solid royalblue;
+    display:flex;
+    flex-direction: column;
+    gap:100px;
+    padding:12px;
+    box-shadow: 2px 3px 4px black;
+
+}
+
+.item{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-around;
+    gap:20px;
+    align-items: center;
+    padding:5px
+
+}
+
+.rightbox img{
+    height:200px;
+    border-radius: 10px;
+    border:1px solid black;
+    transition:all 0.8 linear 0.2s;
+}
+
+.rightbox img:hover{
+    transform: scale(1.2);
+}
