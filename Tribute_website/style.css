@@ -1,0 +1,103 @@
+*{
+    margin:0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: rgb(229, 219, 240);
+}
+
+.main_div{
+    padding:10px;
+    border:10px solid rgb(230, 133, 133)
+}
+
+.intro_div{
+    display:flex;
+    justify-content: space-around;
+    margin:5px,auto;
+    padding:50px;
+    flex-wrap: wrap;
+}
+
+.intro_div,img{
+    border-radius: 100px;
+    overflow: hidden;
+    object-fit: cover;
+   
+}
+
+.intro_content{
+    display:flex;
+    flex-direction: column;
+    
+}
+
+#intro_p{
+    align-self: flex-end;
+}
+
+.about_div{
+    margin:5px,auto;
+    padding:50px;
+    
+}
+.about_div,p{
+    text-align: justify;
+    line-height: 20px;
+    letter-spacing: 1px;
+}
+
+#about_h1{
+    text-align: center;
+     margin-bottom: 30px;
+}
+
+.biographies{
+    margin:5px,auto;
+    padding:50px;
+    display:flex;
+    justify-content:space-between;
+    flex-wrap: wrap;
+}
+
+.biocontent ul{
+    padding-left: 30px;
+    line-height: 20px;
+}
+.biocontent h3{
+    padding-bottom:30px;
+}
+
+
+/* .footerclass{
+    display: flex;
+    justify-content: flex-end;
+} */
+
+#footer_p{
+    margin-left:72%;
+}
+
+@media (max-width:650px) {
+    .intro_div img{
+        margin-top: 40px;
+        padding-top: 20px;
+    }
+    #footer_p{
+        margin-left: 0%;
+    }
+    #about_h1{
+        line-height: 30px;
+    }
+    #ytvideo{
+        margin-top: 30px;
+    }
+    
+
+}
+
+
+
+
